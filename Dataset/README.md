@@ -2,7 +2,7 @@
 
 The Olist dataset consists of information (customers, reviews, products etc..) on 100k orders on [Olist Store](http://www.olist.com/).
 
-9 csv (~120mb) are available and can be [downloaded here](https://www.kaggle.com/olistbr/brazilian-ecommerce). We recommend placing them under the `data/csv` folder.
+9 csv (~120mb) are available and can be [downloaded here](https://www.kaggle.com/olistbr/brazilian-ecommerce). We recommend placing them under the `Dataset` folder.
 - <a href="#data_model">**Data Model**</a>
 - <a href="#olist_customers_dataset">**olist_customers_dataset**</a>
 - <a href="#olist_geolocation_dataset">**olist_geolocation_dataset**</a>
@@ -20,7 +20,7 @@ The schema below represents each dataset and which key to use to join them:
 
 <div id="data_model">
 
-<img src='../img/data_model_olist.png' width='700'>
+<img src='https://imgur.com/HRhd2Y0' width='700'>
 
 <div id="olist_customers_dataset">
 
