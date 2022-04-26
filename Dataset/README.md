@@ -136,7 +136,7 @@ This dataset includes data about the sellers that fulfilled orders made at Olist
 
 ### product_category_name_translation
 
-Translates the product_category_name to english.
+Translates the `product_category_name` to english.
 
 - `product_category_name`: category name in Portuguese
 - `product_category_name_english`: category name in English
