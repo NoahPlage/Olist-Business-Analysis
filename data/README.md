@@ -2,27 +2,23 @@
 
 The Olist dataset consists of information (customers, reviews, products etc..) on 100k orders on [Olist Store](http://www.olist.com/).
 
-9 csv (~120mb) are available and can be [downloaded here](https://www.kaggle.com/olistbr/brazilian-ecommerce). We recommend placing them under the `Dataset` folder.
-- <a href="#data_model">**Data Model**</a>
-- <a href="#olist_customers_dataset">**olist_customers_dataset**</a>
-- <a href="#olist_geolocation_dataset">**olist_geolocation_dataset**</a>
-- <a href="#olist_order_items_dataset">**olist_order_items_dataset**</a>
-- <a href="#olist_order_payments_dataset">**olist_order_payments_dataset**</a>
-- <a href="#olist_order_reviews_dataset">**olist_order_reviews_dataset**</a>
-- <a href="#olist_orders_dataset">**olist_orders_dataset**</a>
-- <a href="#olist_products_dataset">**olist_products_dataset**</a>
-- <a href="#olist_sellers_dataset">**olist_sellers_dataset**</a>
-- <a href="#product_category_name_translation">**product_category_name_translation**</a>
+9 csv (~120mb) are available and can be [downloaded here](https://www.kaggle.com/olistbr/brazilian-ecommerce). We recommend placing them under the `data` folder.
+- [**Data Model**](#data-model)
+- [**olist_customers_dataset**](#olist_customers_dataset)
+- [**olist_geolocation_dataset**](#olist_geolocation_dataset)
+- [**olist_order_items_dataset**](#olist_order_items_dataset)
+- [**olist_order_payments_dataset**](#olist_order_payments_dataset)
+- [**olist_order_reviews_dataset**](#olist_order_reviews_dataset)
+- [**olist_orders_dataset**](#olist_orders_dataset)
+- [**olist_products_dataset**](#olist_products_dataset)
+- [**olist_sellers_dataset**](#olist_sellers_dataset)
+- [**product_category_name_translation**](#product_category_name_translation)
 
 ### Data Model
 
 The schema below represents each dataset and which key to use to join them:
 
-<div id="data_model">
-
-<img src='../img/data-model.png' width='700'>
-
-<div id="olist_customers_dataset">
+![image](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/img/data-model.png)
 
 ### olist_customers_dataset
 
@@ -34,8 +30,6 @@ This dataset has information about the customer and its location. Use it to iden
 - `customer_city`: customer city name
 - `customer_state`: customer state
 
-<div id="olist_customers_dataset">
-
 ### olist_geolocation_dataset
 
 This dataset has information Brazilian zip codes and its lat/lng coordinates. Use it to plot maps and find distances between sellers and customers.
@@ -45,8 +39,6 @@ This dataset has information Brazilian zip codes and its lat/lng coordinates. Us
 - `geolocation_lng`: longitude
 - `geolocation_city`: city name
 - `geolocation_state`: state
-
-<div id="olist_order_items_dataset">
 
 ### olist_order_items_dataset
 
@@ -62,8 +54,6 @@ This dataset includes data about the items purchased within each order.
 - `price`: item price
 - `freight_value`: item freight value item (if an order has more than one item the freight value is splitted between items)
 
-<div id="olist_order_payments_dataset">
-
 ### olist_order_payments_dataset
 
 This dataset includes data about the orders payment options.
@@ -73,8 +63,6 @@ This dataset includes data about the orders payment options.
 - `payment_type`: method of payment chosen by the customer.
 - `payment_installments`: number of installments chosen by the customer.
 - `payment_value`: transaction value.
-
-<div id="olist_order_reviews_dataset">
 
 ### olist_order_reviews_dataset
 
@@ -90,8 +78,6 @@ After a customer purchases the product from Olist Store a seller gets notified t
 - `review_creation_date`: Shows the date in which the satisfaction survey was sent to the customer.
 - `review_answer_timestamp`: Shows satisfaction survey answer timestamp.
 
-<div id="olist_orders_dataset">
-
 ### olist_orders_dataset
 
 This is the core dataset. From each order you might find all other information.
@@ -104,8 +90,6 @@ This is the core dataset. From each order you might find all other information.
 - `order_delivered_carrier_date`: Shows the order posting timestamp. When it was handled to the logistic partner.
 - `order_delivered_customer_date`: Shows the actual order delivery date to the customer.
 - `order_estimated_delivery_date`: Shows the estimated delivery date that was informed to customer at the purchase moment.
-
-<div id="olist_products_dataset">
 
 ### olist_products_dataset
 
@@ -121,8 +105,6 @@ This dataset includes data about the products sold by Olist.
 - `product_height_cm`: product height measured in centimeters.
 - `product_width_cm`: product width measured in centimeters.
 
-<div id="olist_sellers_dataset">
-
 ### olist_sellers_dataset
 
 This dataset includes data about the sellers that fulfilled orders made at Olist. Use it to find the seller location and to identify which seller fulfilled each product.
@@ -131,8 +113,6 @@ This dataset includes data about the sellers that fulfilled orders made at Olist
 - `seller_zip_code_prefix`: first 5 digits of seller zip code
 - `seller_city`: seller city name
 - `seller_state`: seller state
-
-<div id="product_category_name_translation">
 
 ### product_category_name_translation
 
