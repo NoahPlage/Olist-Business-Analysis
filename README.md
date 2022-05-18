@@ -23,6 +23,7 @@ After a customer purchases the product from Olist Store, a seller gets notified 
 ## Table of Contents
 - [Prerequisite to use](#prerequisite-to-use)
   - [Libraries](#libraries)
+  - [Required files](#required-files)
   - [SQL authorisation](#sql-authorisation)
 - [Database Schema](#database-schema)
 - [Power BI Dashboard](#power-bi-dashboard)
