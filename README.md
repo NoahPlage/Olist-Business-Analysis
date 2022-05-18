@@ -66,12 +66,12 @@ The following is the list of the connection parameters:
 - *DB_USERNAME*: the username used to authenticate.
 - *DB_PASSWORD*: password used to authenticate.
 
-# Database Schema
+## Database Schema
 The scraped data will be cleaned, transformed, loaded and stored in Azure SQL Database:
 
 ![image](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/img/database-schema.png)
 
-# Power BI Dashboard
+## Power BI Dashboard
 You can find the Dashboard, the project file and the converted version to PDF below:
 
 ![image](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/img/powerbi-p1.png)
@@ -85,7 +85,7 @@ You can find the Dashboard, the project file and the converted version to PDF be
 |Power BI offline|[.pbix](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/docs/olist-business-analysis.pbix)|
 |PDF|[.pdf](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/docs/olist-business-analysis.pdf)|
 
-# Contributers
+## Contributers
 Hello World!
 
 - [Angela](https://www.linkedin.com/in/angela-p-171b30136/)
