@@ -1,5 +1,5 @@
 # Olist-Business-Analysis
-This is a project to analyse on the customers, products, orders and shipments of the Brazilian E-commerce giant Olist.
+This is a project to analyse on the customers, products and orders of the Brazilian E-commerce giant Olist.
 
 ### Brief
 TODO:
@@ -22,6 +22,14 @@ Install the following libraries:
 ```
 pandas
 pyodbc
+dotenv
+seaborn
+matplotlib
+mpl_toolkits.basemap
+re
+nltk
+sklearn
+google_trans_new
 ```
 
 ### Required Files
@@ -47,22 +55,21 @@ The following is the list of the connection parameters:
 # Database Schema
 The scraped data will be cleaned, transformed, loaded and stored in Azure SQL Database:
 
-**olist_sellers:**
-- seller_id
-- seller_zip_code_prefix
-- seller_city
-- seller_state
+![image](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/img/database-schema.png)
 
-TODO: databases
+# Power BI Dashboard
+You can find the Dashboard, the project file and the converted version to PDF below:
 
-# Analysis Results
-Here we showcase some of our data visualisations.
+![image](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/img/powerbi-p1.png)
 
-## Visualisation 1
-TODO: Image here.
+![image](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/img/powerbi-p2.png)
 
-## Visualisation 2
-TODO: Image here.
+
+| Format | Link |
+|--|--|
+|Power BI online|[Link](https://app.powerbi.com/view?r=eyJrIjoiMTc0YmQyN2QtMmY4ZS00ZDhjLWE1YmUtMzE3MTczNWQ3YThiIiwidCI6IjI1YTk5YmYwLThlNzItNDcyYS1hZTUwLWFkZmJkZjBkZjZmMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection)|
+|Power BI offline|[.pbix](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/docs/olist-business-analysis.pbix)|
+|PDF|[.pdf](https://github.com/NoahPlage/Olist-Business-Analysis/blob/main/docs/olist-business-analysis.pdf)|
 
 # Contributers
 Hello World!
