@@ -11,11 +11,11 @@ After a customer purchases the product from Olist Store, a seller gets notified 
 ### Objective
 1. Create data pipeline to ingest data in PostgreSQL or SQL server database
 2. Use Power BI to answer following questions:
-  - How many customers, orders, and orders per customer does the company have?
-  - What is the number of customers by state?
-  - What is the number of orders by month?
-  - What are the top 5 product categories?
-  - Visualise the company’s customers’ demographics, sales trend, orders by categories, orders changes by year, etc. and use Power BI to help make better decisions
+    - How many customers, orders, and orders per customer does the company have?
+    - What is the number of customers by state?
+    - What is the number of orders by month?
+    - What are the top 5 product categories?
+    - Visualise the company’s customers’ demographics, sales trend, orders by categories, orders changes by year, etc. and use Power BI to help make better decisions
 3. Map and compare report data with data from database query to validate the reports
 4. Critically analyse relevant data using statistical methods
 5. Provide some recommendations and improvements
