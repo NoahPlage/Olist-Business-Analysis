@@ -92,3 +92,7 @@ Hello World!
 - [Brandon](https://www.linkedin.com/in/jinheng-lim/)
 - [Mavis](https://www.linkedin.com/in/mavis-luo-3a5b76192/)
 - [Soon Chye](https://www.linkedin.com/in/lim-soonchye/)
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
